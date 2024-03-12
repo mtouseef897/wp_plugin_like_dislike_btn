@@ -1,0 +1,40 @@
+
+.swhldb-btn{
+    display: inline-block;
+    width: 38%;
+    padding: 20px;
+    font-size: 20px;
+    margin: 0 2%;
+    border: 1px solid #cccccc;
+    background: #f8f8f8;
+    text-align: center;
+    text-transform: uppercase;
+    color: #444444;
+    transition: 0.5s all;
+    text-decoration: none;
+}
+
+.swhldb-btn:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+.swhldb-btn-like:hover{
+    background: green;
+    color: white;
+}
+.swhldb-btn-dislike:hover{
+    background: red;
+    color: white;
+}
+
+.ajax-response{
+    border: 1px solid #cccccc;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background: #444444;
+    padding: 20px;
+}
+
